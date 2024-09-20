@@ -4,17 +4,22 @@ version: 0.18.0
 homepage: https://github.com/fluttify-project
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.12.13"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   
   
-  foundation_fluttify: ^0.13.0+1
-  core_location_fluttify: ^0.7.1
-  amap_core_fluttify: ^0.17.0
+  foundation_fluttify:
+    git:
+      url: https://github.com/EchoPuda/foundation_fluttify.git
+  core_location_fluttify:
+    git:
+      url: https://github.com/EchoPuda/core_location_fluttify.git
+  amap_core_fluttify:
+    git:
+      url: https://github.com/EchoPuda/amap_core_fluttify.git
 
 dev_dependencies:
   flutter_test:
